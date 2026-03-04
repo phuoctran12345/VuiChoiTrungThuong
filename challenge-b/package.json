@@ -1,0 +1,25 @@
+{
+    "name": "docker-workshop-starter",
+    "version": "1.0.0",
+    "description": "Node.js starter app for Docker workshop - FPT University Da Nang",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js",
+        "test": "jest --coverage --coverageThreshold='{\"global\":{\"lines\":80}}'"
+    },
+    "keywords": [
+        "docker",
+        "workshop",
+        "nodejs"
+    ],
+    "author": "FPT University Workshop",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.21.0"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.4"
+    }
+}
